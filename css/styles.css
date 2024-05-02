@@ -5,6 +5,7 @@ body {
   color: #434455;
   background-color: #fff;
 }
+/* Header */
 /* Logo */
 .logo {
   font-family: 'Raleway', sans-serif;
@@ -14,13 +15,13 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   text-decoration: none;
-  color: #2e2f42;
-}
-.accent {
   color: #4d5ae5;
 }
-/* Header */
-.nav {
+.logo-accent {
+  color: #2e2f42;
+}
+/* Navigetion panel */
+.nav-item {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -28,29 +29,28 @@ body {
   list-style-type: none;
   color: #2e2f42;
 }
-.nav-link {
+.nav-list {
   text-decoration: none;
 }
-.nav-link:hover,
-.nav-link:focus {
+.nav-item .nav-list:hover,
+.nav-item .nav-list:focus {
   color: #404bbf;
 }
-.nav .nav-item:active {
-  text-decoration: underline;
-}
-.contact-link {
-  list-style-type: none;
-}
-.contact-link .contact-link-item {
-  font-size: 16px;
+.contact-decor {
   font-style: normal;
+}
+.contact-item {
+  font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
   text-decoration: none;
+  color: #434455;
 }
-.contact-link-item:hover,
-.contact-link-item:focus {
+.contact-list {
+  list-style-type: none;
+}
+.contact-list .contact-item:hover,
+.contact-list .contact-item:focus {
   color: #404bbf;
 }
 /* Main */
@@ -61,12 +61,13 @@ body {
 .title {
   font-weight: 700;
   font-size: 56px;
-  line-height: 1.08;
+  line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
 }
 .button {
+  font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -94,6 +95,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  color: #434455;
 }
 /* Our Team */
 .section-color {
@@ -102,8 +104,9 @@ body {
 .subtitle-item {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.1;
+  line-height: 1.11;
   letter-spacing: 0.02em;
+  text-transform: capitalize;
   text-align: center;
   color: #2e2f42;
 }
