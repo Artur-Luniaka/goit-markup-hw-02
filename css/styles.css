@@ -27,6 +27,8 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   list-style-type: none;
+}
+.nav-item .nav-list {
   color: #2e2f42;
 }
 .nav-list {
